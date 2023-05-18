@@ -1,4 +1,4 @@
-# SYT
+# SYT (Select Your Travel)✈️✈️
 
 About:SYT(Select Your Travel) In this app users can interact with each others about their travel experience around various places in TamilNadu.Other users can like on the post and can select their next travel based on the likes recieved and Description for each places😊😊
 
