@@ -1,0 +1,112 @@
+body {
+    margin:0px;
+  }
+
+  .center {
+    height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: skyblue;
+  
+  }
+  .form-input {
+    width:350px;
+    padding:20px;
+    background:#fff;
+    box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
+                3px 3px 7px rgba(94, 104, 121, 0.377);
+  }
+  .form-input input {
+    display:none;
+  
+  }
+  .form-input label {
+    display:block;
+    width:45%;
+    height:45px;
+    margin-left: 25%;
+    line-height:50px;
+    text-align:center;
+    background:#1172c2;
+  
+    color:#fff;
+    font-size:15px;
+    font-family:"Open Sans",sans-serif;
+    text-transform:Uppercase;
+    font-weight:600;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  
+  .form-input img {
+    width:100%;
+    display:none;
+  
+    margin-bottom:30px;
+  }
+  
+  .center{
+      display: flex;
+      flex-direction: column;
+  }
+  .my-inp{
+      margin-bottom: 20px;
+      padding:4px;
+      width:15%;
+      height:10%;
+      resize: none;
+      border-radius: 8px;
+      font-family: "Open Sans",sans-serif;
+      font-weight: bold;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .my-inp{
+      width:40%;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+      .my-inp{
+          width:40%;
+      }
+  }
+
+.addedimage{
+  background-color: skyblue;
+  width:30%;
+  margin: auto;
+}
+
+.buttons{
+  
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.cancel-btn{
+  margin-right:13px;
+  padding:4px;
+  background-color: red;
+  color: white;
+  box-shadow: 0 5px 10px rgba(248, 56, 56, 0.3);
+}
+
+.post-btn{
+  background-color: green;
+  color: white;
+  padding:4px;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(127, 240, 34, 0.3);
+}
+
+
+.clr{
+  min-height: 100vh;
+  height: fit-content;
+  background-color: skyblue;
+}

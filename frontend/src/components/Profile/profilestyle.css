@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: auto;
+    margin-top: 2%;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: darkblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.profile-img{
+
+    height: 100px;
+    width: 100px;
+}
+
+.top{
+    background-color: rgb(186, 194, 228);
+    height:400px;
+}
+
+.top-mg{
+    margin-left:40%;
+}
+.home{
+    text-decoration: none;
+    color: white;
+    padding:4px;
+    margin-left:3%;
+    font-weight: bolder;
+    font-size: x-large;
+   
+
+}
+
+.home:hover{
+    color: darkblue;
+}
+
+.other-c{
+    width:80%;
+    /* margin-left: 10%; */
+    margin:auto;
+    margin-top:4%;
+}
+.rowc{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+.columnc {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    
+  }
+.image-card-profile{
+  height:120px;
+}
+.usr_name{
+  color:white;
+}
+
+.del-btn{
+  margin-left: 72px;
+  background-color: lightcoral;
+  color: white;
+  box-shadow: 0 5px 10px rgba(248, 56, 56, 0.3);
+  width:27%;
+}
+  
+  /* Remove extra left and right margins, due to padding */
+  /* .row {margin: 0 -5px;} */
+  
+  /* Clear floats after the columns */
+
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .columnc {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .home{
+        font-size: large;
+    }
+    .other-c{
+        margin-left: 18%;
+    }
+  }
+  
+  /* Style the counter cards */
+  .cardc {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width:200px;
+    height:250px;
+  }
+@media (max-width: 768px){
+    .columnc {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .home{
+          font-size: large;
+      }
+      .other-c{
+          margin-left:20%;
+      }
+
+}
+
+

@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    background-image: url('../../../public/images/SYT.jpg'); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; 
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+.navbar{
+    width:100%;
+    height:7%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-container{
+    height:70%;
+    display: flex;
+    margin-top:5%;
+    margin-left: 40%;
+
+}
+.box-1{
+    width:40%;
+    border: 3px solid white;
+    border-radius: 8px;
+    backdrop-filter: blur(2.5px);
+    
+}
+
+.nav-1,.nav-2{
+    margin-right: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    font-size: larger;
+    color: white;
+}
+
+.nav-1:hover,.nav-2:hover{
+    color: rgb(215, 222, 228);
+}
+
+.inp{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.syt{
+    color:darkblue;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.inp-1,.inp-2{
+    width:70%;
+    margin: auto;
+    background: transparent;
+    height:3rem;
+    color: white;
+    font-size: large;
+    border-color: transparent;
+    border-bottom-color:darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom-width: 3px;  
+}
+
+.visit{
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    background-color: darkblue;
+    width:30%;
+    color: white;
+    padding: 4%;
+    margin: auto;
+    margin-top:10%;
+    border-radius: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.visit:hover{
+    background-color: white;
+    color: darkblue;
+}
+.visit-2:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+.inp-1:focus,.inp-1:active{
+    border-bottom-color:black;
+    outline:none; 
+}
+
+.inp-2:focus,.inp-2:active{
+    border-bottom-color:black;
+    outline:none; 
+}
+
+.inp-1{
+    margin-top: 10%;
+}
+.inp-1::placeholder,.inp-2::placeholder{
+    color:white;
+    opacity: 1;
+}
+.inp-2{
+    margin-top: 10%;
+}
+.inp-1,.inp-2{
+    height:2rem;
+    border-bottom-width: 2px;
+}
+.inp-3{
+    margin-left:15%;
+    width: 70%;
+    
+}
+/* .inp-3::-webkit-progress-value{
+    background-color: red;
+}
+.
+progress::-moz-progress-bar { background: red; }
+progress::-webkit-progress-value { background: red; }
+progress { color: red; } */
+
+.inp-3{
+    background:red ;
+    background-color: white;
+    color: white;
+    height:6px;
+    border-radius: 9px;
+}
+
+.visit-2{
+    backdrop-filter: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size:large;
+    font-weight: bolder;
+    background-color: darkblue;
+    width:30%;
+    color: white;
+    padding: 5%;
+    margin: auto;
+    margin-top:6%;
+    border-radius: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.visit-2-ad{
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 992px) { 
+    .box-container{
+        height:80%;
+        margin-top:4%;
+        margin-left: 30%;
+        
+    }
+    .nav-1,.nav-2{
+        font-size: large;
+    }
+    .box-1{
+        width: 70%;
+        border: 3px solid white;
+    }
+    .inp-1,.inp-2{
+        height:2rem;
+        font-size: medium;
+        border-bottom-width: 2px;
+    }
+    .visit{
+        font-size:x-small;
+        
+    }
+    .visit-2{
+        margin-top:4%;
+        font-size:x-small;
+        padding:10px;
+    }
+
+
+}
+
+  /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .box-container{
+        height: 70%;
+        margin-top:10%;
+        margin-left: 30%;
+        
+    }
+    .nav-1,.nav-2{
+        font-size: large;
+    }
+    .box-1{
+        width: 70%;
+        border: 3px solid white;
+    }
+    .inp-1,.inp-2{
+        height:2rem;
+        font-size: medium;
+        border-bottom-width: 2px;
+    }
+    .visit{
+        font-size:x-small;
+        
+    }
+    .visit-2{
+        margin-top:8%;
+        font-size:x-small;
+    }
+
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
